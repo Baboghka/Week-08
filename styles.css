@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css"> 
+        body{
+           background-color:lightcyan
+        }
+        h1 {
+            color: coral;
+        }
+        div{
+            background-color:lightgoldenrodyellow;
+            border-style:solid;
+            border-color:black;
+            border-radius:5px;
+        }
+
+        .shadow-text{
+      text-shadow: grey 1px 1px
+      text-shadow: grey 1px 1px
+      text-shadow: grey 1px 1px
+        }
+        #large paragraph{
+          font size: 50 px
+        }
+    
+  </head>
+  <body>
+    <h1>Home</h1>
+    
+    <div>
+      <p class="shadow-text">Come to see our turtles!</p>
+      <p class="shadow-text"> GIANT TURTLES IN THE WORLD!</p>
+      <p class="shadow-text>WELCOME TO VISIT OUR FARMLAND!</p>
+      <p  id = "large-paragraph">Find more about us in our "About" section in out website</p>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <img
+      height="150 px"
+      src="https://media.npr.org/assets/img/2021/03/12/wnedy-5_custom-9be83b25cbb2e6db492bba134c42581611b5b09c.jpg"
+    />
+  </body>
+</html>
